@@ -1,0 +1,127 @@
+{
+    "Header": {
+        "title": "WakingCorp",
+        "paragraph": "Transforming your daily routine into a balanced, fulfilling lifestyle. Discover a new way to organize your life with our innovative solutions."
+    },
+    "About": {
+        "paragraph": "At WakingCorp, we are dedicated to helping you focus on what truly matters in your life. Our ecosystem of services empowers you to build healthy routines, organize your day-to-day activities, and connect with like-minded individuals. We aim to enhance your wellbeing by providing tools that support better eating habits, efficient time management, and a more organized life.",
+        "Why": [
+            "Enhance your daily routines",
+            "Improve time management",
+            "Connect with like-minded individuals",
+            "Promote healthier living"
+        ],
+        "Why2": [
+            "User-friendly apps and websites",
+            "Personalized habit tracking",
+            "Community support",
+            "Holistic lifestyle improvement"
+        ]
+    },
+    "Services": [
+        {
+            "icon": "fa fa-mobile",
+            "name": "Mobile App Development",
+            "text": "Creating intuitive mobile applications that help you manage and enhance your daily routines."
+        },
+        {
+            "icon": "fa fa-desktop",
+            "name": "Website Development",
+            "text": "Developing user-friendly websites designed to support your journey towards a more organized life."
+        },
+        {
+            "icon": "fa fa-heart",
+            "name": "Healthy Lifestyle Tools",
+            "text": "Providing tools and resources to help you eat healthier and adopt better habits."
+        },
+        {
+            "icon": "fa fa-users",
+            "name": "Community Building",
+            "text": "Connecting you with a community of like-minded individuals for mutual support and motivation."
+        },
+        {
+            "icon": "fa fa-calendar",
+            "name": "Time Management Solutions",
+            "text": "Offering solutions to help you efficiently manage your time and daily activities."
+        },
+        {
+            "icon": "fa fa-check-circle",
+            "name": "Habit Tracking",
+            "text": "Empowering you to track your habits and see your progress towards a healthier lifestyle."
+        }
+    ],
+    "Testimonials": [
+        {
+            "img": "img/testimonials/01.jpg",
+            "text": "\"WakingCorp's apps have transformed the way I organize my day. I'm more productive and healthier than ever!\"",
+            "name": "Alex Johnson"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Thanks to WakingCorp, I've built better habits and connected with a community that supports my goals.\"",
+            "name": "Emily Davis"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"The tools provided by WakingCorp have made it easier for me to stay on top of my daily tasks and maintain a healthy lifestyle.\"",
+            "name": "Michael Smith"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"WakingCorp's services are a game-changer. They've helped me become more organized and mindful of my habits.\"",
+            "name": "Sarah Williams"
+        }
+    ],
+    "Team": [
+        {
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345",
+        "phone": "+1 123 456 1234",
+        "email": "info@wakingcorp.com",
+        "facebook": "facebook.com/wakingcorp",
+        "twitter": "twitter.com/wakingcorp",
+        "youtube": "youtube.com/wakingcorp"
+    },
+    "Features": [
+        {
+            "icon": "fa fa-comments-o",
+            "title": "User-Friendly Interface",
+            "text": "Our applications feature a user-friendly interface designed for ease of use and maximum efficiency."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Personalized Notifications",
+            "text": "Receive personalized notifications to keep you on track with your daily goals and habits."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Community Support",
+            "text": "Join a community of individuals who share your goals and can provide support and motivation."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Seamless Integration",
+            "text": "Our tools seamlessly integrate into your daily routine, making it easier to stay organized and focused."
+        }
+    ]
+}
