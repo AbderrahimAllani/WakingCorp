@@ -215,7 +215,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   
   .intro h1 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #fff; /* Set text color to white */
 	font-size: 82px;
 	font-weight: 700;
@@ -225,11 +225,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   
   .intro h1 span {
+	font-family: 'Poppins', sans-serif;
 	font-weight: 800;
 	color: #5ca9fb; /* Color of the emphasized span (if applicable) */
   }
   
   .intro p {
+	font-family: 'Poppins', sans-serif;
 	color: #fff; /* Set paragraph text color to white */
 	font-size: 22px;
 	font-weight: 300;
@@ -239,6 +241,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   
   header .intro-text {
+	font-family: 'Poppins', sans-serif;
 	padding-top: 350px; /* Adjust padding as needed */
 	padding-bottom: 200px; /* Adjust padding as needed */
 	text-align: center;
@@ -246,6 +249,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   
 /* Features Section */
 #features {
+	font-family: 'Poppins', sans-serif;
 	padding: 100px 0;
 	background: #f6f6f6;
 }
@@ -640,3 +644,138 @@ color: #777;
 .cursor{
 	cursor: pointer;
 }
+/* Dark Mode Styles */
+body.dark-mode {
+	background-color: #121212;
+	color: #e0e0e0;
+  }
+  
+  body.dark-mode h2, 
+  body.dark-mode h3, 
+  body.dark-mode h4, 
+  body.dark-mode h5 {
+	color: #ffffff;
+  }
+  
+  body.dark-mode a {
+	color: #bb86fc;
+  }
+  
+  body.dark-mode a:hover, 
+  body.dark-mode a:focus {
+	color: #5C00B9;
+  }
+  
+  body.dark-mode #menu.navbar-default {
+	background-color: #1f1f1f;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  body.dark-mode #menu a.navbar-brand, 
+  body.dark-mode #menu.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+  }
+  
+  body.dark-mode .btn-custom {
+	background-color: #5C00B9;
+	border: 2px solid #bb86fc;
+	color: #ffffff;
+  }
+  
+  body.dark-mode .btn-custom:hover {
+	background-color: #4a009e;
+	border-color: #bb86fc;
+  }
+  
+  body.dark-mode .section-title h2::after {
+	background: rgba(255, 255, 255, 0.3);
+  }
+  
+  body.dark-mode #features {
+	background-color: #1f1f1f;
+  }
+  
+  body.dark-mode #features i.fa,
+  body.dark-mode #services .service-icon {
+	background: linear-gradient(to right, #5C00B9 0%, #bb86fc 100%);
+	color: #fff;
+  }
+  
+  body.dark-mode #services {
+	background: #1f1f1f;
+  }
+  
+  body.dark-mode #services h3 {
+	color: #ffffff;
+  }
+  
+  body.dark-mode #services p {
+	color: rgba(255, 255, 255, 0.75);
+  }
+  
+  body.dark-mode #contact {
+	background: #2c2c2c;
+  }
+  
+  body.dark-mode #contact h3, 
+  body.dark-mode #contact h2 {
+	color: #ffffff;
+  }
+  
+  body.dark-mode #contact .section-title p {
+	color: rgba(255, 255, 255, 0.75);
+  }
+  
+  body.dark-mode hr {
+	background: #bb86fc;
+  }
+  
+  body.dark-mode .testimonial-meta {
+	color: #bbbbbb;
+  }
+  
+  body.dark-mode #footer {
+	background: #1f1f1f;
+  }
+  
+  body.dark-mode #footer p {
+	color: #bbbbbb;
+  }
+  
+  body.dark-mode .navbar-toggle:hover, 
+  body.dark-mode .navbar-toggle:focus {
+	background-color: #333333;
+  }
+  /* Toggle Button Styles */
+#dark-mode-toggle {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #5C00B9;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	cursor: pointer;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s ease;
+	z-index: 1000;  /* Ensure the button is above other elements */
+  }
+  
+  #dark-mode-toggle:hover {
+	background-color: #4a009e;
+  }
+  
+  body.dark-mode #dark-mode-toggle {
+	background-color: #bb86fc;
+	color: #121212;
+  }
+  
+  body.dark-mode #dark-mode-toggle:hover {
+	background-color: #9965f4;
+  }
