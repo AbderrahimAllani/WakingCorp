@@ -40,7 +40,7 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
+      <About data={landingPageData.About} isDarkMode={isDarkMode} />
       <Services data={landingPageData.Services} />
       <Footer />
       <button id="dark-mode-toggle" onClick={toggleDarkMode}>
